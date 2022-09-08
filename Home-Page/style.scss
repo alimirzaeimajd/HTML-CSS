@@ -1,0 +1,18 @@
+@import 'variables';
+
+@font-face {
+    font-family: 'VazirmatnBold';
+    src: url('fonts\webfonts\Vazirmatn-Bold.woff2');
+}
+h1.display-1.text-success.font-monospace.fw-bold{
+    font-family: 'VazirmatnBold' !important;
+}
+div.text-center > img.rounded.img-fluid{
+    z-index: -1;
+}
+div.container.text-center > div.row.align-items-center.text-white{
+    z-index: 1;
+}
+.text-success{
+    color: $teal !important;
+}
